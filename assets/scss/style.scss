@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.result{
+    display: flex;
+}
+.box{
+    border: 3px solid black;
+    background-color: rgb(191, 190, 190);
+    border-radius: 10px;
+    display: flex;
+    width: 20%;
+    height: 240px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.col-4{
+    width: calc(100%*4/12);
+    
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: -10px;
+}
+.number{
+    display: flex;
+    button{
+        display: flex;
+        font-size: 18px;
+        padding:2px ;
+    }
+}
+.operations{
+    display: flex;
+    margin-top: 50px;
+    margin-left: -80px;
+    flex-direction: column;
+    gap: 5px;
+    .operation{
+
+        button{
+            padding: 10px;
+            font-size: 15px;
+            
+        }
+    }
+}
+.result{
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+}
