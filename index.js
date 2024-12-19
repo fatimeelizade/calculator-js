@@ -15,7 +15,7 @@ const divide = document.querySelector(".divide");
 const multiply = document.querySelector(".multiply");
 let x=0;
 let y=0;
-let isClicked =false;
+
 minus.addEventListener("click",function(){
     return x-y;
 })
